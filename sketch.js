@@ -527,7 +527,6 @@ function drawSectorCircles(cx, cy) {
       PIE
     );
   }
-
   
   noStroke();
   const [coreR, coreG, coreB] = oilPalette[2]; 
@@ -563,12 +562,10 @@ function drawBlackCircles(cx, cy) {
   fill(0, 102, 204);
   ellipse(cx, cy, 100, 100);
 
- 
   noStroke();
   fill(0);
   ellipse(cx, cy, 90, 90);
 
-  
   const numLines = 100;
   const lineColor = color(...oilPalette[9]); 
   stroke(lineColor);
@@ -607,12 +604,10 @@ function drawBlackCircles(cx, cy) {
       PIE
     );
   }
-
  
   noStroke();
   fill(255);
   ellipse(cx, cy, 30, 30);
-
 
   noStroke();
   fill(0, 102, 204);
