@@ -58,9 +58,6 @@ function draw() {
 }
 
 
-
-
-
 //Drawing on drawSunMoon(252, 108) and drawSunMoon(54,52)
 function drawSunMoon(cx, cy) {
   const orange = color(241, 168, 128);
@@ -269,7 +266,6 @@ function drawGreenCircle(cx, cy) {
     ellipse(cx + dx, cy + dy, 2, 2);
   }
 }
-
 
 /**
  * Drawing on drawBlueCircle(28, 160) and drawBlueCircle(172, 28)
